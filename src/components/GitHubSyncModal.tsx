@@ -460,7 +460,7 @@ export function GitHubSyncModal({
                     type="password"
                     value={patInput}
                     onChange={(e) => setPatInput(e.target.value)}
-                    placeholder="ghp_xxxxxxxxxxxxxxxxxxxx (Classic Token)"
+                    placeholder="ghp_xxxxxxxxxxxxxxxxxx (Classic Token)"
                     className="w-full bg-slate-950/80 border border-white/10 rounded-xl pl-9 pr-3 py-2.5 text-xs text-slate-200 outline-none focus:border-indigo-500/60 font-mono"
                   />
                 </div>
