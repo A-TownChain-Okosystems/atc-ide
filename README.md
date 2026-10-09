@@ -20,14 +20,14 @@ Vollständiges Inventar: `src/components/` (39 Panels).
 ## Status: EXPERIMENTAL
 
 - Lauffähiger Prototyp (React 18 + Vite + Monaco-Editor, Gemini-Integration via `@google/genai`)
-- **Kein** Production-Build, **keine** Test-Suite, **keine** CI-Gates — Nachweis via `.atc/evidence/evidence.yaml`
+- **Kein** Production-Build und **keine** Application-Test-Suite laut aktuellem README. Ein Markdown-Lint-Workflow existiert; er ist kein Ersatz für Build-, Test-, Security- oder Release-Gates. Aktueller CI-Status muss am exakten SHA geprüft werden.
 - Noch im Google-AI-Studio-Applet-Skelett (`package.json` name: `react-example`)
 
 ## Roadmap (Adoption)
 
 1. AI-Studio-Skelett entfernen (Rebranding zu ATC IDE, `server.ts` Review)
 2. CI-Governance-Wiring (Repository Governance, ATC-STD-201/202/203)
-3. Test-Setup + Evidence-Statusleiter (SPECIFIED → … → RELEASED)
+3. Application-Test-Setup + Evidence-Statusleiter (SPECIFIED → … → RELEASED); vorhandenes Markdown-Lint bleibt bestehen
 4. Integration: ATC-VM-Simulator ↔ atc-vm, Doc-Compliance ↔ atc-standards-Registry
 
 ## Provenanz
