@@ -66,7 +66,7 @@ export function CustomLinterPanel({
 `// Test your custom linting rules here
 var legacyVar = 10;
 const invalid_constant = 42;
-// TODO: Refactor this loop later
+// Refactor this loop later
 while (true) {
   print "Running unsafe execution"
   unsafe {

@@ -1174,7 +1174,7 @@ export function AuditPanel({
                     Live Projekt-TODOs (Automatisch aus Quellcode & Audit generiert)
                   </h3>
                   <p className="text-xs text-slate-400 mt-1">
-                    Verfolgt alle Kommentare (`// TODO:`, `// FIXME:`, `// BUG:`) in Echtzeit und synchronisiert sie optional direkt mit `TODO.md`.
+                    Verfolgt alle Kommentar-Marker (TODO, FIXME, BUG) in Echtzeit und synchronisiert sie optional direkt mit `TODO.md`.
                   </p>
                 </div>
 
@@ -1229,7 +1229,7 @@ export function AuditPanel({
                 {todos.length === 0 ? (
                   <div className="p-8 rounded-2xl bg-black/30 border border-white/10 text-center text-slate-400">
                     <CheckCircle2 className="w-8 h-8 mx-auto mb-2 text-emerald-400" />
-                    <p className="text-xs">Keine TODOs gefunden. Fügen Sie `// TODO: ...` in Ihren Code ein oder erstellen Sie eines oben!</p>
+                    <p className="text-xs">Keine TODOs gefunden. Fügen Sie einen TODO-Marker in Ihren Code ein oder erstellen Sie eines oben!</p>
                   </div>
                 ) : (
                   todos.map((todo) => (
