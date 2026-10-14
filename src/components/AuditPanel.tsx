@@ -1196,7 +1196,7 @@ export function AuditPanel({
                 </div>
               </div>
 
-              {/* Todo Stats */}
+              {/* Stats: todo overview */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
                 <div className="p-3.5 rounded-xl bg-black/30 border border-white/5">
                   <span className="text-slate-400 block">Offene Aufgaben</span>
@@ -1224,7 +1224,7 @@ export function AuditPanel({
                 </div>
               </div>
 
-              {/* Todo Item Cards */}
+              {/* Cards: todo items */}
               <div className="space-y-2">
                 {todos.length === 0 ? (
                   <div className="p-8 rounded-2xl bg-black/30 border border-white/10 text-center text-slate-400">
