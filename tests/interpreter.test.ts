@@ -25,7 +25,7 @@ test("lexer recognizes keywords, operators, and EOF", () => {
     [TokenType.NUMBER, "2"],
     [TokenType.PLUS, "+"],
   ]);
-  assert.equal(actual.at(-1)?.[0], TokenType.SEMICOLON ?? actual.at(-1)?.[0]);
+  assert.equal(actual.length, 11);
 });
 
 test("parser builds a program for variable assignment and print", () => {
